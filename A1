@@ -26,3 +26,9 @@ Public Class Form1
             Label4.Text = AmountAfterDisscount
         End If
         
+///need to chech if condition
+End If
+        If CheckBox1.Checked = False Then
+            AmountAfterDisscount = FeeAmount - AmountFoorceDisscount
+            Label4.Text = AmountAfterDisscount
+        End If
